@@ -1,0 +1,16 @@
+SyntaxError: invalid syntax
+admins-Mac-mini:desktop Guest$ python exp16.py
+Opening the file...
+Traceback (most recent call last):
+  File "exp16.py", line 3, in <module>
+    target = open(filename, 'w')
+NameError: name 'filename' is not defined
+admins-Mac-mini:desktop Guest$ python exp16.py
+Opening the file...
+Traceback (most recent call last):
+  File "exp16.py", line 3, in <module>
+    target = open(fl1.txt, 'w')
+NameError: name 'fl1' is not defined
+admins-Mac-mini:desktop Guest$ python exp15.py
+  File "exp15.py", line 6
+SyntaxError: Non-ASCII character '\
